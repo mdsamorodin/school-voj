@@ -195,7 +195,6 @@ header {
     padding: 15px 40px;
 }
 
-
 .logo {
     margin-right: 66px;
     height: 100%;
@@ -390,6 +389,7 @@ header {
 }
 
 .camps {
+    position: relative;
     padding: 51px 100px 76px 100px;
     background: #A8AFFE;
 }
@@ -412,6 +412,12 @@ header {
     border: 10px solid #008264;
     border-radius: 60px;
     padding: 65px 0;
+}
+
+.capms__icon {
+    position: absolute;
+    right: 34px;
+    bottom: 35%;
 }
 
 .camps__img {
@@ -522,6 +528,10 @@ header {
 }
 
 @media (max-width: 1510px) {
+    .capms__icon {
+        bottom: 40%;
+    }
+
     .title {
         font-size: 65px;
     }
@@ -871,7 +881,7 @@ header {
 
         .descr_org {
             margin: 19px 0 47px 0;
-            width: 550px;
+            max-width: 550px;
         }
 
         .org__img {
@@ -1085,6 +1095,12 @@ header {
     }
 
     @media (max-width: 1000px) {
+        .capms__icon {
+            height: 60px;
+            right: 24px;
+            bottom: 33%;
+        }
+
         .menu__list {
             margin-right: 63px;
         }
@@ -1184,7 +1200,7 @@ header {
         }
 
         .sep_red {
-            width: 120px;
+            max-width: 120px;
         }
 
         .about__numbers_org {
@@ -1282,6 +1298,29 @@ header {
     }
 
     @media (max-width: 825px) {
+        .capms__icon {
+            height: 50px;
+            right: 24px;
+            bottom: 30%;
+        }
+
+        .menu__list {
+            margin-right: 43px;
+        }
+
+        .menu__i {
+            margin-left: 24px;
+        }
+
+        .menu__logo {
+            width: 40px;
+        }
+
+        .logo {
+            margin-right: 36px;
+            height: 100%;
+        }
+
         .promo__content {
             margin-left: 430px;
         }
@@ -1376,5 +1415,275 @@ header {
 
     }
 
-    @media (max-width: 720px) {}
+    @media (max-width: 720px) {
+        .descr {
+            font-size: 18px;
+            line-height: 29px;
+        }
+
+        .text {
+            font-size: 16px;
+            line-height: 27px;
+        }
+
+        .promo__content {
+            margin-left: 230px;
+        }
+
+        .about {
+            padding: 20px 68px 35px 70px;
+        }
+
+        .about__number_about {
+            width: 210px;
+        }
+
+        .org {
+            padding: 20px 0px 35px 70px;
+        }
+
+        .descr_org {
+            margin: 10px 0 17px 0;
+            max-width: 500px;
+        }
+
+        .about__numbers_org {
+            max-width: 530px;
+            margin-left: -10px;
+        }
+
+        .format__item {
+            width: 400px;
+            height: 305px;
+        }
+
+        .format__item3 {
+            margin-top: -40px;
+        }
+
+        .format__item4 {
+            margin-top: 0px;
+        }
+
+        .format__btn {
+            margin-top: 45px;
+            width: 200px;
+            height: 50px;
+            border: 3px solid #008264;
+        }
+
+        .subtitle_btn_format {
+            font-size: 25px;
+        }
+
+        .subtitle_name {
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        .text_rev {
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        .title_name {
+            margin-bottom: 4px;
+            font-size: 25px;
+        }
+
+        .camps__wrapper {
+            justify-content: space-around;
+        }
+
+        .camps__item3 {
+            display: none;
+        }
+
+        .title_faq {
+            margin-bottom: 25px;
+        }
+
+        .descr_faq {
+            font-size: 16px;
+        }
+
+        .faq {
+            padding: 20px 56px 35px 56px;
+        }
+
+        .faq__item {
+            height: 50px;
+            margin-bottom: 33px;
+            padding-top: 10px;
+        }
+
+        .faq__icon {
+            right: 17px;
+            bottom: 17px;
+            width: 30px;
+        }
+
+        .bottom {
+            padding: 20px 40px 15px 40px;
+        }
+
+        .title_bottom {
+            font-size: 18px;
+        }
+
+        .subtitle_bottom {
+            font-size: 16px;
+        }
+
+        .bottom__btn {
+            right: 25px;
+            bottom: 20px;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .about__numbers_org {
+            max-width: 430px;
+            margin-left: -10px;
+        }
+    }
+
+    @media (max-width: 578px) {
+        .title {
+            font-size: 50px;
+        }
+
+        .descr {
+            font-size: 21px;
+            line-height: 25px;
+        }
+
+        .promo {
+            position: relative;
+            min-height: 776px;
+            background: url(../img/bg_promo_mobile.png) no-repeat, url(../img/black.png)
+        }
+
+        .promo__content {
+            margin-left: 68px;
+        }
+
+        .title_big {
+            font-size: 70px;
+        }
+
+        .subtitle_promo {
+            width: 280px;
+            font-size: 22px;
+        }
+
+        .promo__btn {
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 300px;
+            right: 60px;
+        }
+
+        .subtitle_btn_promo {
+            font-size: 30px;
+        }
+
+        .about {
+            padding: 45px 40px 45px 44px;
+        }
+
+        .title_about {
+            text-align: center;
+        }
+
+        .descr_about {
+            margin: 22px 0 43px 0;
+        }
+
+        .descr_num {
+            font-size: 20px;
+            line-height: 23px;
+        }
+
+        .about__number_about {
+            margin-bottom: 15px;
+        }
+
+        .org {
+            padding: 45px 41px 109px 41px;
+        }
+
+        .title_org {
+            text-align: center;
+        }
+
+        .descr_org {
+            margin-top: 26px;
+            width: 400px;
+        }
+
+        .about__numbers_org {
+            max-width: 388px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .about__number_org {
+            margin-bottom: 15px;
+        }
+
+        .descr_num_red {
+            width: 158px;
+        }
+
+        .org__img {
+            width: 190px;
+            display: block;
+            right: 96px;
+            top: 430px;
+        }
+
+        .org__logo {
+            left: 38px;
+            bottom: 25px;
+        }
+
+        .title_mini {
+            font-size: 30px;
+        }
+
+        .title_name {
+            font-size: 30px;
+        }
+
+        .descr_faq {
+            font-size: 16px;
+        }
+
+        .capms__icon {
+            height: 50px;
+            right: 24px;
+            bottom: 24%;
+        }
+
+        .title_bottom {
+            font-size: 18px;
+        }
+
+        .bottom {
+            padding: 20px 30px 15px 30px;
+        }
+
+        .bottom__btn {
+            right: 23px;
+            bottom: 20px;
+        }
+
+        .faq {
+            padding: 20px 36px 35px 36px;
+        }
+    }
+
 }
