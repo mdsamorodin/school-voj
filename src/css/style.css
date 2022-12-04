@@ -1426,8 +1426,34 @@ header {
             line-height: 27px;
         }
 
+        .promo {
+            background: url(../img/bg_promo_ipad1.png) top 88px left 0px no-repeat, url(../img/black.png)
+        }
+
         .promo__content {
-            margin-left: 230px;
+            margin-left: 86px;
+        }
+
+        .title_big {
+            font-size: 55px;
+        }
+
+        .subtitle_promo {
+            margin-top: 20px;
+            width: 200px;
+            font-size: 15px;
+        }
+
+        .promo__btn {
+            position: absolute;
+            width: 160px;
+            height: 50px;
+            top: 230px;
+            right: 84px;
+        }
+
+        .subtitle_btn_promo {
+            font-size: 24px;
         }
 
         .about {
@@ -1545,6 +1571,17 @@ header {
         .about__numbers_org {
             max-width: 430px;
             margin-left: -10px;
+        }
+
+        .promo__btn {
+            width: 140px;
+            height: 40px;
+            top: 230px;
+            right: 34px;
+        }
+
+        .subtitle_btn_promo {
+            font-size: 20px;
         }
     }
 
@@ -1678,7 +1715,18 @@ header {
 
         .bottom__btn {
             right: 23px;
-            bottom: 20px;
+            bottom: 25px;
+            width: 120px;
+            height: 35px;
+            border: 3px solid #FFF2E0;
+        }
+
+        .subtitle_btn_bottom {
+            font-size: 16px;
+        }
+
+        .review {
+            padding: 20px 60px 35px 60px;
         }
 
         .faq {
