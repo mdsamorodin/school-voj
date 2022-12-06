@@ -1990,29 +1990,29 @@ span {
         }
 
         .title_bottom {
-            display: none;
-            width: 200px;
-            font-size: 16px;
-            margin-bottom: 10px;
+            width: 320px;
+            font-size: 15px;
+            margin-bottom: 0px;
         }
 
         .subtitle_bottom {
+            display: none;
             font-size: 16px;
         }
 
         .bottom {
-            padding: 20px 10px 25px 37px;
+            padding: 20px 0px 25px 17px;
         }
 
         .bottom__btn {
-            right: 36px;
+            right: 18px;
             bottom: 18px;
-            width: 120px;
+            width: 105px;
             height: 32px;
         }
 
         .subtitle_btn_bottom {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         span {
@@ -2179,16 +2179,24 @@ span {
             padding: 25px 25px 35px 25px;
         }
 
-        .subtitle_bottom {
-            font-size: 14px;
+        .title_bottom {
+            font-size: 20px;
+            width: 170px;
         }
 
         .bottom {
-            padding: 20px 10px 25px 17px;
+            padding: 20px 10px 25px 24px;
         }
 
         .bottom__btn {
-            right: 16px;
+            right: 24px;
+            bottom: 50px;
+            width: 135px;
+            height: 34px;
+        }
+
+        .subtitle_btn_bottom {
+            font-size: 18px;
         }
 
         span {
@@ -2267,23 +2275,24 @@ span {
             width: 22px;
         }
 
-        .subtitle_bottom {
-            font-size: 13px;
+        .title_bottom {
+            font-size: 18px;
+            width: 150px;
         }
 
         .bottom {
-            padding: 15px 10px 15px 17px;
+            padding: 20px 10px 25px 18px;
         }
 
         .bottom__btn {
-            right: 10px;
-            bottom: 10px;
-            width: 100px;
-            height: 26px;
+            right: 18px;
+            bottom: 50px;
+            width: 115px;
+            height: 30px;
         }
 
         .subtitle_btn_bottom {
-            font-size: 13px;
+            font-size: 15px;
         }
 
         .title_name {
